@@ -1,0 +1,11 @@
+table,th,tr,td{
+    height: 30px;
+    width: 30px;
+    border-style: groove;
+    border-collapse: collapse;
+    border-color: cornflowerblue;
+    vertical-align: bottom;
+    text-align: right;
+
+
+}

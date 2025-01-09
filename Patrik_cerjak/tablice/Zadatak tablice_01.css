@@ -1,0 +1,9 @@
+table,th,td{
+
+
+    border-width: 5px;
+    border-color: deeppink;
+    border-style: dashed;
+    border-collapse: collapse;
+
+}

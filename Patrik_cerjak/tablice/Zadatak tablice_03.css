@@ -1,0 +1,16 @@
+table,td,tr,th{
+    border: 1px solid black;
+    height: 30px;
+    border-style: dot-dot-dash;
+    border-color:red ;
+
+
+
+
+}
+
+td:hover{
+    background-color: lightgray;
+    color: white;
+}
+
