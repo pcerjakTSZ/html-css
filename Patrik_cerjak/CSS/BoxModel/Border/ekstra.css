@@ -1,0 +1,22 @@
+.a{
+
+border-style: dashed;
+    border-color: deeppink;
+}
+
+.b
+{
+border-style: dot-dot-dash;
+    border-top: mediumspringgreen;
+    border-collapse: revert;
+
+
+}
+
+.c{
+    border: 1px solid cornflowerblue;
+    border-bottom: darkslategray;
+    border-collapse: separate;
+
+}
+
