@@ -1,0 +1,12 @@
+p{
+    border: 1px solid black;
+
+}
+.out_dub_red{
+    outline: thick double red;
+}
+
+.out_dub_grn{
+    outline: 3px double green;
+
+}
