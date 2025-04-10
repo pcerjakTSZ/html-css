@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clash Royale - Epic Card Battle Strategy Game</title>
+  <link rel="stylesheet" href="zezstr.css">
+</head>
+<body>
+<!-- Header -->
+<header class="header">
+  <div class="container">
+    <div class="logo">
+      <svg xmlns="http://www.w3.org/2000/svg" class="crown-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m2 4 3 12h14l3-12-6 7-4-7-4 7-6-7zm3 16h14"/></svg>
+      <h1>Clash Royale</h1>
+    </div>
+    <nav class="nav">
+      <a href="#cards" class="nav-link">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/></svg>
+        Cards
+      </a>
+      <a href="#arenas" class="nav-link">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>
+        Arenas
+      </a>
+      <a href="#clans" class="nav-link">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        Clans
+      </a>
+      <a href="#tournaments" class="nav-link">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>
+        Tournaments
+      </a>
+    </nav>
+  </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="hero-content">
+    <h2>Enter the Arena</h2>
+    <p>Battle players worldwide in epic real-time strategy!</p>
+    <div class="hero-buttons">
+      <button class="cta-button primary">Play Now</button>
+      <button class="cta-button secondary">Watch Battles</button>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <span class="stat-number">50M+</span>
+        <span class="stat-label">Players</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">103</span>
+        <span class="stat-label">Cards</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">15</span>
+        <span class="stat-label">Arenas</span>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <span>Scroll to Explore</span>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+  </div>
+</section>
+
+<!-- Featured Update Section -->
+<section class="featured-update">
+  <div class="container">
+    <div class="update-content">
+      <div class="update-badge">New Season</div>
+      <h2>Dragon's Fury</h2>
+      <p>Experience the might of ancient dragons with new cards, emotes, and tower skins!</p>
+      <a href="#" class="learn-more">Learn More</a>
+    </div>
+    <div class="countdown">
+      <div class="countdown-item">
+        <span class="number">14</span>
+        <span class="label">Days</span>
+      </div>
+      <div class="countdown-item">
+        <span class="number">22</span>
+        <span class="label">Hours</span>
+      </div>
+      <div class="countdown-item">
+        <span class="number">45</span>
+        <span class="label">Minutes</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Cards Section -->
+<section class="cards" id="cards">
+  <div class="container">
+    <div class="section-header">
+      <h2>Popular Cards</h2>
+      <div class="card-filters">
+        <button class="filter-btn active">All</button>
+        <button class="filter-btn">Troops</button>
+        <button class="filter-btn">Spells</button>
+        <button class="filter-btn">Buildings</button>
+      </div>
+    </div>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-banner">New</div>
+        <img src="https://images.unsplash.com/photo-1596838132731-3301c3fd4317?auto=format&fit=crop&q=80&w=300&h=300" alt="P.E.K.K.A">
+        <div class="card-content">
+          <div class="card-header">
+            <h3>P.E.K.K.A</h3>
+            <div class="elixir-cost">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+              7
+            </div>
+          </div>
+          <p>A mighty warrior in heavy armor</p>
+          <div class="card-stats">
+            <div class="stat">
+              <span class="label">HP</span>
+              <span class="value">3400</span>
+            </div>
+            <div class="stat">
+              <span class="label">DPS</span>
+              <span class="value">376</span>
+            </div>
+          </div>
+          <span class="rarity epic">Epic</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1514924527133-375129f6e8b3?auto=format&fit=crop&q=80&w=300&h=300" alt="Wizard">
+        <div class="card-content">
+          <div class="card-header">
+            <h3>Wizard</h3>
+            <div class="elixir-cost">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+              5
+            </div>
+          </div>
+          <p>Launches powerful fireballs at enemies</p>
+          <div class="card-stats">
+            <div class="stat">
+              <span class="label">HP</span>
+              <span class="value">598</span>
+            </div>
+            <div class="stat">
+              <span class="label">DPS</span>
+              <span class="value">228</span>
+            </div>
+          </div>
+          <span class="rarity rare">Rare</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1578730292458-e2d0b8e4f1b9?auto=format&fit=crop&q=80&w=300&h=300" alt="Valkyrie">
+        <div class="card-content">
+          <div class="card-header">
+            <h3>Valkyrie</h3>
+            <div class="elixir-cost">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+              4
+            </div>
+          </div>
+          <p>Deals area damage with her mighty axe</p>
+          <div class="card-stats">
+            <div class="stat">
+              <span class="label">HP</span>
+              <span class="value">1654</span>
+            </div>
+            <div class="stat">
+              <span class="label">DPS</span>
+              <span class="value">147</span>
+            </div>
+          </div>
+          <span class="rarity rare">Rare</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-banner">Popular</div>
+        <img src="https://images.unsplash.com/photo-1614728263952-84ea256f9679?auto=format&fit=crop&q=80&w=300&h=300" alt="Mega Knight">
+        <div class="card-content">
+          <div class="card-header">
+            <h3>Mega Knight</h3>
+            <div class="elixir-cost">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+              7
+            </div>
+          </div>
+          <p>Lands with the force of 1,000 mustaches</p>
+          <div class="card-stats">
+            <div class="stat">
+              <span class="label">HP</span>
+              <span class="value">3300</span>
+            </div>
+            <div class="stat">
+              <span class="label">DPS</span>
+              <span class="value">333</span>
+            </div>
+          </div>
+          <span class="rarity legendary">Legendary</span>
+        </div>
+      </div>
+    </div>
+    <div class="cards-cta">
+      <button class="view-all-btn">View All Cards</button>
+    </div>
+  </div>
+</section>
+
+<!-- Arenas Section -->
+<section class="arenas" id="arenas">
+  <div class="container">
+    <h2>Battle Arenas</h2>
+    <div class="arena-grid">
+      <div class="arena">
+        <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&q=80&w=800" alt="Goblin Stadium">
+        <div class="arena-info">
+          <h3>Goblin Stadium</h3>
+          <div class="trophy-requirement">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>
+            0-299 Trophies
+          </div>
+          <div class="arena-rewards">
+            <div class="reward">
+              <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&q=80&w=100" alt="Common Card">
+              <span>Common Cards</span>
+            </div>
+            <div class="reward">
+              <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&q=80&w=100" alt="Rare Card">
+              <span>Rare Cards</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="arena">
+        <img src="https://images.unsplash.com/photo-1501839214328-30655bd59f4b?auto=format&fit=crop&q=80&w=800" alt="Bone Pit">
+        <div class="arena-info">
+          <h3>Bone Pit</h3>
+          <div class="trophy-requirement">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>
+            300-599 Trophies
+          </div>
+          <div class="arena-rewards">
+            <div class="reward">
+              <img src="https://images.unsplash.com/photo-1501839214328-30655bd59f4b?auto=format&fit=crop&q=80&w=100" alt="Epic Card">
+              <span>Epic Cards</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Clans Section -->
+<section class="clans" id="clans">
+  <div class="container">
+    <div class="section-header">
+      <h2>Join a Clan</h2>
+      <p>Team up with other players, share cards, and dominate the leaderboards!</p>
+    </div>
+    <div class="clan-features">
+      <div class="feature">
+        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        <h3>Clan Wars</h3>
+        <p>Battle other clans in epic 2-day wars</p>
+      </div>
+      <div class="feature">
+        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>
+        <h3>Card Donations</h3>
+        <p>Share and receive cards from clanmates</p>
+      </div>
+      <div class="feature">
+        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        <h3>Friendly Battles</h3>
+        <p>Practice with friends without losing trophies</p>
+      </div>
+    </div>
+    <div class="clan-search">
+      <input type="text" placeholder="Search for clans..." class="clan-search-input">
+      <button class="search-btn">Search</button>
+    </div>
+  </div>
+</section>
+
+<!-- Tournaments Section -->
+<section class="tournaments" id="tournaments">
+  <div class="container">
+    <h2>Weekly Tournaments</h2>
+    <div class="tournament-grid">
+      <div class="tournament-card">
+        <div class="tournament-header">
+          <h3>Grand Challenge</h3>
+          <span class="status active">Active</span>
+        </div>
+        <div class="tournament-details">
+          <div class="detail">
+            <span class="label">Entry</span>
+            <span class="value">100 Gems</span>
+          </div>
+          <div class="detail">
+            <span class="label">Players</span>
+            <span class="value">234/1000</span>
+          </div>
+          <div class="detail">
+            <span class="label">Prizes</span>
+            <span class="value">22,000 Gold</span>
+          </div>
+        </div>
+        <button class="join-btn">Join Now</button>
+      </div>
+
+      <div class="tournament-card">
+        <div class="tournament-header">
+          <h3>Classic Challenge</h3>
+          <span class="status upcoming">Starting Soon</span>
+        </div>
+        <div class="tournament-details">
+          <div class="detail">
+            <span class="label">Entry</span>
+            <span class="value">10 Gems</span>
+          </div>
+          <div class="detail">
+            <span class="label">Players</span>
+            <span class="value">89/100</span>
+          </div>
+          <div class="detail">
+            <span class="label">Prizes</span>
+            <span class="value">2,000 Gold</span>
+          </div>
+        </div>
+        <button class="join-btn">Join Queue</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Download Section -->
+<section class="download">
+  <div class="container">
+    <div class="download-content">
+      <h2>Download Now</h2>
+      <p>Join millions of players worldwide</p>
+      <div class="store-buttons">
+        <a href="#" class="store-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="20" x="4" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg>
+          App Store
+        </a>
+        <a href="#" class="store-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" x2="4" y1="22" y2="15"/></svg>
+          Play Store
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-section">
+        <div class="footer-logo">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m2 4 3 12h14l3-12-6 7-4-7-4 7-6-7zm3 16h14"/></svg>
+          <span>Clash Royale</span>
+        </div>
+        <p>Experience epic multiplayer battles</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#cards">Cards</a></li>
+          <li><a href="#arenas">Arenas</a></li>
+          <li><a href="#clans">Clans</a></li>
+          <li><a href="#tournaments">Tournaments</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Community</h4>
+        <ul>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Leaderboard</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Follow Us</h4>
+        <div class="social-links">
+          <a href="#" class="social-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+          </a>
+          <a href="#" class="social-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+          </a>
+          <a href="#" class="social-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Supercell. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
