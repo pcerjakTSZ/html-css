@@ -5,8 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travis Scott - Galerija</title>
     <link rel="stylesheet" href="stil.css">
+    <style>
+        section.gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        figure {
+            flex: 1 1 300px;
+            max-width: 300px;
+            margin: 0;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            background-color: #1a1a1a;
+        }
+
+        figure img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        figcaption {
+            text-align: center;
+            color: white;
+            padding: 8px;
+            font-size: 0.9rem;
+            font-family: Arial, sans-serif;
+        }
+
+        @media (max-width: 768px) {
+            figure {
+                max-width: 90%;
+            }
+        }
+    </style>
 </head>
 <body>
+
 <header>
     <h1>Galerija</h1>
     <nav>
@@ -19,16 +59,60 @@
         </ul>
     </nav>
 </header>
-<main class="flex">
-    <img src="slike/galerija1.jpg" alt="Travis koncert">
-    <img src="slike/galerija2.jpg" alt="Travis publika">
-    <video controls width="320">
-        <source src="video/travis_live.mp4" type="video/mp4">
-        Vaš preglednik ne podržava video element.
-    </video>
+
+<main>
+    <section>
+        <h2>Najbolji trenuci s nastupa Travisa Scotta</h2>
+        <p>Ova galerija prikazuje nezaboravne koncerte, pirotehniku, publiku i energiju koja prati svaki njegov nastup.</p>
+    </section>
+
+    <section class="gallery">
+        <figure>
+            <img src="slike/galerija1.jpg" alt="Travis koncert">
+            <figcaption>Travis na pozornici</figcaption>
+        </figure>
+        <figure>
+            <img src="slike/galerija2.jpg" alt="Travis publika">
+            <figcaption>Publika u transu</figcaption>
+        </figure>
+        <figure>
+            <img src="slike/galerija3.jpg" alt="Scena sa svjetlima">
+            <figcaption>hype</figcaption>
+        </figure>
+        <figure>
+            <img src="slike/galerija4.jpg" alt="Backstage trenutak">
+            <figcaption>Pirotehnika</figcaption>
+        </figure>
+        <figure>
+            <img src="slike/galerija5.jpg" alt="Publika na koncertu">
+            <figcaption>Atmosfera na koncertu</figcaption>
+        </figure>
+        <figure>
+            <img src="slike/galerija6.jpg" alt="Travis i pirotehnika">
+            <figcaption>Skok u crowd</figcaption>
+        </figure>
+        <figure>
+            <img src="slike/galerija7.jpg" alt="Travis i pirotehnika">
+            <figcaption>Utopia</figcaption>
+        </figure>
+        <figure>
+            <img src="slike/galerija8.jpg" alt="Travis i pirotehnika">
+            <figcaption>Travis</figcaption>
+        </figure>
+        <figure>
+            <img src="slike/galerija9.jpg" alt="Travis i pirotehnika">
+            <figcaption>Koncert</figcaption>
+        </figure>
+        <figure>
+            <img src="slike/galerija10.jpg" alt="Travis i pirotehnika">
+            <figcaption>Circus Maximus</figcaption>
+        </figure>
+    </section>
 </main>
+
 <footer>
-    <p>&copy; Travis Scott </p>
+    <p>&copy; Travis Scott</p>
 </footer>
+
 </body>
 </html>
