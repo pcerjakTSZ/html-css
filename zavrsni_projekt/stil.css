@@ -130,6 +130,13 @@ figcaption {
     font-family: Arial, sans-serif;
 }
 
+figure img {
+    transition: transform 0.3s ease;
+}
+
+figure img:hover {
+    transform: scale(1.05);
+}
 @media (max-width: 768px) {
     figure {
         max-width: 90%;
